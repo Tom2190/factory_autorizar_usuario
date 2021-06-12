@@ -4,11 +4,7 @@ let nextId = 1
 
 function crearUsuario(datos, id = null) {
     
-    const usuario = {
-        autorizar() {
-            usuario.publicarTextos = true
-        }
-    }
+    const usuario = {}
 
     if (!datos.nombreCompleto) {
         throw crearErrorDatosInvalidos('Falta el nombre')

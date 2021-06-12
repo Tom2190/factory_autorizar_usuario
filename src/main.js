@@ -1,4 +1,4 @@
-import { crearServidor } from './compartido/servidor/servidor.js'
+// import { crearServidor } from './compartido/servidor/servidor.js'
 
-const port = 3000
-await crearServidor(port)
+// const port = 3000
+// await crearServidor(port)
