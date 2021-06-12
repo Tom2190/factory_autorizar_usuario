@@ -1,3 +1,5 @@
+import { crearErrorDatosInvalidos } from './ErrorDatosInvalidos.js'
+
 let nextId = 1
 
 function crearUsuario(datos, id = null) {
